@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    padding: 5px;
+    width: 200px;
+    border: 1px solid rgb(134, 134, 238);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.74);
+
+}
+div button{
+    padding: 5px;
+    width: 50px;
+    background-color: rgba(127, 255, 212, 0.767);
+    border: 2px solid rgb(134, 134, 238);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+}
+div button:hover{
+    border: 2px solid black;
+}
